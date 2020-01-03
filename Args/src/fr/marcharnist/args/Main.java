@@ -15,6 +15,10 @@ public class Main {
 
 	public static void main(String[] argumentsPersonnalises) {
 		
+		if(argumentsPersonnalises.length == 0) {
+			System.out.println("Vous pouvez renseigner un argument!");
+		}
+		
 		//Petit test d'affichage des arguments
 		for(String arg : argumentsPersonnalises) {
 			System.out.print(arg + " ");
